@@ -67,7 +67,6 @@ app.get('/:champion', (req, resp) => {
 
     try {
         axios(url).then(res => {
-            // console.log(res.data);
             const html = res.data;
             const $ = cheerio.load(html);
 
