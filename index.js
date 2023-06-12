@@ -34,7 +34,7 @@ app.get('/', (req, resp) => {
 
                 listChampions.push({
                     name: name,
-                    url: 'http://localhost:8080/' + urlChampion.split('/')[3],
+                    url: 'https://lol-champions-api.onrender.com/' + urlChampion.split('/')[3],
                     // image: image
                 });
             });
